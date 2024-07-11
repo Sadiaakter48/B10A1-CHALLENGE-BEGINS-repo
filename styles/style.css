@@ -33,7 +33,7 @@ nav ul li {
     .header{
     height: 1200px;
     width: 1800px;
-    background-image:url('--/assets/Hero-bg.png');
+    background-image:url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -192,7 +192,7 @@ padding: 0px 0px;
 
 /* footer styles */
 .last{
-    background-image: url('--/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-position: center;
     justify-content: center;
     background-size: cover;
