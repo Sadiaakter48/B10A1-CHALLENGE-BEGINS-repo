@@ -36,20 +36,11 @@ nav ul li {
     background-image:url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 20px 1800px;
-    }
-    .back{
-        position: center;
-        align-items: center;
         
-    }
-    .ft{
-        position: center;
-
     }
   
 
@@ -96,9 +87,6 @@ padding: 0px 0px;
     font-weight: 400px;
     text-align: center;
 }
-.back{
-    align-items: center;
-}
 
 .bold {
     color: #0D1321;
@@ -106,8 +94,12 @@ padding: 0px 0px;
 .section-b {
    text-align: center;
 }
-.sec-top{
-    position: center;
+.section-b h1 {
+    text-align: center;
+    text-shadow: 3px 2px 0px 2px 3px #fff;
+}
+.section-b p{
+    text-shadow: 3px 2px 0px 2px 3px #fff;
 }
 .c-top {
     position: center;
@@ -119,33 +111,13 @@ padding: 0px 0px;
         align-items: center;
     }
     
-.c{
-    background-color: #fafafa;
-    text-align: center;
-}
-.c{
-    width: 300px;
-    height: 255px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-    text-align: left;
-}
-.c-top {
-    padding: 80px;
-    margin-left: 5%;
-    position: center;
-    justify-items: center;
 
-}
-.c-top-img {
-    padding: 80px;
-    margin-right: 5%;
-}
-.
+
+
+
 .play-video{
-    padding: 5px;
-    border: 1px solid lightgrey;
+    padding: 6px;
+    box-shadow: #f1e9e9;
     border-radius: 5px;
     margin-top: 28px;
 
@@ -188,19 +160,50 @@ padding: 0px 0px;
     background-color: rgb(144, 133, 124);
 }
 
-
-
-/* footer styles */
-.last{
-    background-image: url('../assets/handshake.jpg');
+.f-child{
+    background-image: url("../assets/handshake.jpg");
+    colour:#fff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 700px;
+    width: 1200px;
+    display: center;
     background-position: center;
+    padding: 0px 1900px;
     justify-content: center;
-    background-size: cover;
-    padding: 40px 1750px;
-    font-size: bold;
-    position: center;
+}
+.f-child h1{
+    text-shadow: 3px 2px 0px 2px 2px #777;
+    text-align: center;
+    padding: 80px 200px;
 
 }
+.f-child p{
+    text-shadow: 3px 2px 0px 2px 2px #777;
+    text-align: center;
+
+}
+.f-child input{
+    width:160px;
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+.f-child button{
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    width: 20pxpx;
+    height: 20px;
+    text-align: center;
+}
+.top{
+    position: center;
+}
+
 
 
 .last-one {
@@ -211,6 +214,10 @@ padding: 0px 0px;
     text-align: center;
 
 }
-.f{
+.last-one h4{
+    display: center;
+    position: center;
     text-align: center;
+}.last-one a {
+    display: inline;
 }
