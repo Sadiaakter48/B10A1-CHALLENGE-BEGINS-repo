@@ -8,16 +8,14 @@
 nav {
     display: flex;
     justify-content: space-around;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
+    
 }
 
 nav ul li {
     list-style: none;
 }
 .back{
-    position: center;
+    
     align-items: center;
     justify-content: center;
     display: flex;
@@ -27,19 +25,22 @@ nav ul li {
     font-family:"Azeret Mono",monospace;
     font-optical-sizing: auto;
     font-style: normal;
-    position: center;
+
  }
 
     .header{
-    height: 1200px;
-    width: 1800px;
+   /* height: 
+    width: */
     background-image:url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
   background-position: center;
-  justify-content: center;
-  align-items: center;
+  
   text-align: center;
-  padding: 20px 1800px;
+  padding: 20px 50px;
+  height: 500px;
+  margin-top: 5%;
+  /* width: 80%; */
+  
         
     }
   
@@ -54,45 +55,12 @@ nav ul li {
 
 }
 
-.banner {
-    text-align: center;
-    justify-content: center;
 
-background-position: center;
-
-    position: center;
-}
-.banner-con {
-    align-items: center;
-    text-align: center;
-    line-height: 62px;
-    justify-content: center;
-    padding: 0px 250px;
-}
-.banner-name {
-padding: 0px 0px;
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-}
-.banner-pic {
-    width: 1250px;
-    height: 1250px;
-
-    margin-bottom: 20px;
-    /*padding:260px 220px;*/
-}
-.banner-description{
-    font-size: 18px;
-    font-weight: 400px;
-    text-align: center;
-}
+   
 
 .bold {
     color: #0D1321;
-}
-.section-b {
-   text-align: center;
+
 }
 .section-b h1 {
     text-align: center;
@@ -102,12 +70,12 @@ padding: 0px 0px;
     text-shadow: 3px 2px 0px 2px 3px #fff;
 }
 .c-top {
-    position: center;
+
     align-items: center;
     text-align: center;
 }
     .c-img{
-        position: center;
+    
         align-items: center;
     }
     
@@ -126,10 +94,10 @@ padding: 0px 0px;
 .play-video iframe{
     border-radius: 5px;
     padding: 10px;
-    position:center;
+
 }
 .parent-section{
-    position: center;
+
     text-align: center;
 }
 
@@ -142,12 +110,9 @@ padding: 0px 0px;
     
  }
  .sec-top{
-    position:center;
     text-align: center;
  }
- .second{
-    position: center;
- }
+ 
 .child-1{
     background-color: rgb(121, 181, 161);
     
@@ -162,17 +127,13 @@ padding: 0px 0px;
 
 .f-child{
     background-image: url(../assets/handshake.jpg);
-    colour:#fff;
-    border-radius: 5px;
     background-repeat: no-repeat;
-    text-align: center;
-    height: 700px;
-    width: 1200px;
+   
     display: center;
     background-position: center;
-    padding: 0px 1900px;
-    justify-content: center;
+    height: 500px;
 }
+
 .f-child h1{
     text-shadow: 3px 2px 0px 2px 2px #777;
     text-align: center;
@@ -185,38 +146,36 @@ padding: 0px 0px;
 
 }
 .f-child input{
-    width:160px;
-    height: 20px;
+    
     background-color: #fff;
     border: none;
     border-radius: 2px;
     text-align: center;
+    width:30%;
+    margin-left: 30%;
 }
 .f-child button{
     background-color: #fff;
     border: none;
     border-radius: 2px;
-    width: 20pxpx;
-    height: 20px;
-    text-align: center;
+    margin-left: 15px;
+    width: 160px;
 }
-.top{
-    position: center;
-}
+
 
 
 
 .last-one {
     justify-items: center;
     box-shadow: none;
-    position:center;
+    
     justify-content: center;
     text-align: center;
 
 }
 .last-one h4{
     display: center;
-    position: center;
+    
     text-align: center;
 }.last-one a {
     display: inline;
